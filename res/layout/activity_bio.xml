@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:orientation="vertical">
+<!-- <TextView
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:layout_margin="20dp"
+android:textSize="18dp"
+android:text="@string/message" /> 
+
+<Button android:id="@+id/speakButton"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_gravity="center_horizontal"
+android:background="@drawable/ic_launcher" /> -->
+
+<ListView android:id="@+id/biolist"
+android:layout_width="fill_parent"
+android:layout_height="0dip"
+android:layout_weight="1" />
+ <TextView
+        android:id="@+id/resultbio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.06"
+        android:scrollHorizontally="true"
+        android:scrollbars="horizontal|vertical"
+        android:textSize="22dp" />
+
+</LinearLayout>

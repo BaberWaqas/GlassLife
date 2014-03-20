@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:baselineAligned="false"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:orientation="horizontal"
+        android:paddingLeft="40dp"
+        android:paddingTop="40dp" >
+
+        <TextView
+            android:id="@+id/resultvoice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/read_aloud"
+            android:paddingLeft="5dp"
+            android:paddingTop="10dp"
+            android:scrollHorizontally="true"
+            android:text="@string/text_speak" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/viewer"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:orientation="vertical"
+        android:paddingLeft="30dp"
+        android:paddingTop="40dp" >
+
+        <TextView
+            android:id="@+id/hello_m"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hello_i_am" />
+
+        <TextView
+            android:id="@+id/clould"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cloud_picture" />
+
+        <TextView
+            android:id="@+id/show_network"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/show_me_network" />
+
+        <TextView
+            android:id="@+id/send_log"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/send_log" />
+    </LinearLayout>
+
+</LinearLayout>
